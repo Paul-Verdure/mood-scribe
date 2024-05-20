@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -13,7 +13,9 @@ export default function Home() {
         </p>
         <div>
           <Link href="/journal">
-          <button className="bg-blue-600 px-4 py-2 rounded-lg text-xl">button</button>
+            <button className="bg-blue-600 px-4 py-2 rounded-lg text-xl">
+              button
+            </button>
           </Link>
         </div>
       </div>
